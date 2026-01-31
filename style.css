@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.box__btn {
+    background-color: black;
+    color: white;
+    width: 108px;
+    height: 17px;
+    border-radius: 5px;
+}
+
+
+
+
+.left {
+    width: 550px;
+    height: 333px;
+
+}
+
+.right {
+    width: 550px;
+    height: 333px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.left h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 140%;
+    color: black;
+
+}
+
+.left button {
+    width: 168px;
+    height: 59px;
+    color: white;
+    background-color: green;
+    margin-top: 60px;
+}
+
+.card {
+    width: 384px;
+    height: 358px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.card:hover {
+    background-color: #1AAB7B;
+    color: white;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 75px 0;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.btnsct2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    list-style: none;
+}
+
+.sct2 h1 {
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.sct2 {
+    background-color: #E1E7ED;
+    height: 1000px;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.end {
+    height: 700px;
+    background-color: #0EB4C1;
+
+}
+
+nav ul li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+
+.main__img {
+    width: 540px;
+    height: 346px;
+    border-radius: 10px;
+}
+
+.main__input {
+    width: 540px;
+    height: 346px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main__input input {
+    width: 460px;
+    height: 41px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 30px;
+}
+
+.inp2 {
+    margin: 15px 40px;
+}
+
+.inp1 {
+    margin: 15px 40px;
+}
+
+.inp3 {
+    margin: 15px 40px;
+}
+
+.inp4 {
+    margin: 15px 40px;
+}
+
+.main__input button {
+    width: 460px;
+    height: 41px;
+    background-color: #38CC8B;
+    color: #E1E7ED;
+    border-radius: 10px;
+    margin: 15px 40px;
+
+}
+
+.ota {
+    height: 205px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+    color: white;
+    margin: 100px 0;
+}
+
+.rasm {
+    margin-left: 100px;
+}
